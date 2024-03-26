@@ -1,0 +1,10 @@
+debug/main.o
+debug/tdialogheaders.o
+debug/tdialoglocate.o
+debug/tdialogsize.o
+debug/tformtable.o
+debug/qrc_res.o
+debug/moc_tdialogheaders.o
+debug/moc_tdialoglocate.o
+debug/moc_tdialogsize.o
+debug/moc_tformtable.o

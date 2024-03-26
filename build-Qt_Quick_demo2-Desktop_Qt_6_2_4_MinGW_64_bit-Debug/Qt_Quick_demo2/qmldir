@@ -1,0 +1,5 @@
+module Qt_Quick_demo2
+typeinfo appQt_Quick_demo2.qmltypes
+prefer :/Qt_Quick_demo2/
+Main 1.0 Main.qml
+

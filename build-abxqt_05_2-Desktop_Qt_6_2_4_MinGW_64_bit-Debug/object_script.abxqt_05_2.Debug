@@ -1,0 +1,10 @@
+debug/main.o
+debug/mainwindow.o
+debug/tcomboboxdelegate.o
+debug/tfloatspindelegate.o
+debug/tspinboxdelegate.o
+debug/qrc_res.o
+debug/moc_mainwindow.o
+debug/moc_tcomboboxdelegate.o
+debug/moc_tfloatspindelegate.o
+debug/moc_tspinboxdelegate.o
