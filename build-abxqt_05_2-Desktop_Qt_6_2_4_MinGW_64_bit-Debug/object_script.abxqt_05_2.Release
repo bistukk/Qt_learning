@@ -1,0 +1,10 @@
+release/main.o
+release/mainwindow.o
+release/tcomboboxdelegate.o
+release/tfloatspindelegate.o
+release/tspinboxdelegate.o
+release/qrc_res.o
+release/moc_mainwindow.o
+release/moc_tcomboboxdelegate.o
+release/moc_tfloatspindelegate.o
+release/moc_tspinboxdelegate.o

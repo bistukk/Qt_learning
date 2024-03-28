@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>519</width>
+    <height>409</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_6">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QGroupBox" name="groupBox">
+       <property name="title">
+        <string>设置对象</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QRadioButton" name="radioBtnListSrouce">
+          <property name="text">
+           <string>listSource</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="radioBtnListWidget">
+          <property name="text">
+           <string>listWidget</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="radioBtnTreeWidget">
+          <property name="text">
+           <string>treeWidget</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="radioBtnTableWidget">
+          <property name="text">
+           <string>tableWidget</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="groupBox_2">
+       <property name="title">
+        <string>GroupBox</string>
+       </property>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="0">
+         <widget class="QCheckBox" name="chkBoxAcceptDrops">
+          <property name="text">
+           <string>acceptDDrops</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QCheckBox" name="chkBoxDragEnabled">
+          <property name="text">
+           <string>dragEnabled</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="labDragDrogMode">
+          <property name="text">
+           <string>dragDrogMode</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QComboBox" name="comboBoxMode">
+          <item>
+           <property name="text">
+            <string>DragDrop</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>NoDragDrop</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>DragOnly</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>DropOnly</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>intemalMove</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="labDefaultAction">
+          <property name="text">
+           <string>defaultDropAction</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QComboBox" name="comboBoxDefaultAction">
+          <item>
+           <property name="text">
+            <string>CopyAction</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>MoveAction</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LinkAction</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>ignoreAction</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>128</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QGroupBox" name="groupBox_listSource">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::StrongFocus</enum>
+       </property>
+       <property name="title">
+        <string>listSource</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QListWidget" name="listSource">
+          <item>
+           <property name="text">
+            <string>剪切</string>
+           </property>
+           <property name="icon">
+            <iconset resource="res.qrc">
+             <normaloff>:/icons/icons/cut.bmp</normaloff>:/icons/icons/cut.bmp</iconset>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>复制</string>
+           </property>
+           <property name="icon">
+            <iconset resource="res.qrc">
+             <normaloff>:/icons/icons/120.bmp</normaloff>:/icons/icons/120.bmp</iconset>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>粘贴</string>
+           </property>
+           <property name="icon">
+            <iconset resource="res.qrc">
+             <normaloff>:/icons/icons/paste.bmp</normaloff>:/icons/icons/paste.bmp</iconset>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>粗体</string>
+           </property>
+           <property name="icon">
+            <iconset resource="res.qrc">
+             <normaloff>:/icons/icons/BLD.BMP</normaloff>:/icons/icons/BLD.BMP</iconset>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>斜体</string>
+           </property>
+           <property name="icon">
+            <iconset resource="res.qrc">
+             <normaloff>:/icons/icons/ITL.BMP</normaloff>:/icons/icons/ITL.BMP</iconset>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>下划线</string>
+           </property>
+           <property name="icon">
+            <iconset resource="res.qrc">
+             <normaloff>:/icons/icons/428.bmp</normaloff>:/icons/icons/428.bmp</iconset>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>左对齐</string>
+           </property>
+           <property name="icon">
+            <iconset resource="res.qrc">
+             <normaloff>:/icons/icons/423.bmp</normaloff>:/icons/icons/423.bmp</iconset>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>中间对齐</string>
+           </property>
+           <property name="icon">
+            <iconset resource="res.qrc">
+             <normaloff>:/icons/icons/421.bmp</normaloff>:/icons/icons/421.bmp</iconset>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>右对齐</string>
+           </property>
+           <property name="icon">
+            <iconset resource="res.qrc">
+             <normaloff>:/icons/icons/427.bmp</normaloff>:/icons/icons/427.bmp</iconset>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>红色</string>
+           </property>
+           <property name="icon">
+            <iconset resource="res.qrc">
+             <normaloff>:/icons/icons/103.bmp</normaloff>:/icons/icons/103.bmp</iconset>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>绿色</string>
+           </property>
+           <property name="icon">
+            <iconset resource="res.qrc">
+             <normaloff>:/icons/icons/104.bmp</normaloff>:/icons/icons/104.bmp</iconset>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>蓝色</string>
+           </property>
+           <property name="icon">
+            <iconset resource="res.qrc">
+             <normaloff>:/icons/icons/105.bmp</normaloff>:/icons/icons/105.bmp</iconset>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="groupBox_listWidget">
+       <property name="focusPolicy">
+        <enum>Qt::StrongFocus</enum>
+       </property>
+       <property name="title">
+        <string>listWidget</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <widget class="QListWidget" name="listWidget"/>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="groupBox_treeWidget">
+       <property name="focusPolicy">
+        <enum>Qt::StrongFocus</enum>
+       </property>
+       <property name="title">
+        <string>treeWidget</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QTreeWidget" name="treeWidget"/>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="groupBox_tableWidget">
+       <property name="focusPolicy">
+        <enum>Qt::StrongFocus</enum>
+       </property>
+       <property name="title">
+        <string>tableWidget</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <item>
+         <widget class="QTableWidget" name="tableWidget">
+          <row>
+           <property name="text">
+            <string>1</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>2</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>3</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>4</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>5</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>6</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>7</string>
+           </property>
+          </row>
+          <column>
+           <property name="text">
+            <string>1</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>2</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

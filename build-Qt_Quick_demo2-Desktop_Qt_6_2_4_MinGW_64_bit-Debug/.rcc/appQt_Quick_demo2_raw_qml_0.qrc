@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/Qt_Quick_demo2/">
+    <file alias="Main.qml">E:/QtProject/Qt_Quick_demo2/Main.qml</file>
+  </qresource>
+</RCC>
+

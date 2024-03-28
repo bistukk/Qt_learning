@@ -1,0 +1,10 @@
+release/main.o
+release/mainwindow.o
+release/tdialogheaders.o
+release/tdialoglocate.o
+release/tdialogsize.o
+release/qrc_res.o
+release/moc_mainwindow.o
+release/moc_tdialogheaders.o
+release/moc_tdialoglocate.o
+release/moc_tdialogsize.o
